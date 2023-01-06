@@ -45,6 +45,6 @@ public class FileDemo {
 //			e.printStackTrace();
 //		}
 		
-		IntStream.of(new int[] {4,5,7,9,8,3,2,}).filter((int i) -> i > 5).distinct().forEach(System.out::println);
+		IntStream.of(new int[] {4,5,7,9,8,3,2,7,5,8}).filter((int i) -> i > 5).distinct().forEach(System.out::println);
 	}
 }
